@@ -52,8 +52,12 @@ header nav {
 
 header ul {
 	align-self: flex-end;
-    margin-bottom: 2px;
+    /*margin-bottom: 2px;*/
     padding: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 2px;
 }
 
 header li {
@@ -86,7 +90,7 @@ header li a:hover {
 section.main {
 	margin-top: 160px;
 	margin-bottom: 160px;
-    width: 880px;
+    /*width: 880px;*/
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
@@ -137,12 +141,12 @@ section#contact-me input {
 	margin-bottom: 15px;
     padding: 10px;
     font-size: 0.8rem;
-    width: 855px;
+    width: 100%;
 }
 
 section#contact-me textarea {
 	border: 1px solid #dddddd;
-    width: 857px;
+    width: 100%;
     margin-bottom: 15px;
     height: 200px;
     font-size: 0.8rem;
