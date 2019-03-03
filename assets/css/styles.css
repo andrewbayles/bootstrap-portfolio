@@ -8,13 +8,6 @@ body {
     max-width: 970px;
 }
 
-/*
-.container-fluid {
-    padding: 0px;
-    margin: 0px;
-}
-*/
-
 header {
 	background-color: #ffffff;
     height: 100px;
@@ -105,12 +98,6 @@ section.main hr {
 	margin-bottom: 30px;
 }
 
-section#about-me img {
-	/*float: left;*/
-	/*padding: 0px 30px 0px 0px;*/
-	/*height: 240px;*/
-}
-
 section#about-me p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #cccccc;
@@ -121,7 +108,6 @@ section#about-me p {
 section#contact-me p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #000000;
-    /*padding-bottom: 10px;*/
 }
 
 section#contact-me input {
@@ -151,15 +137,7 @@ section#contact-me button {
     width: 110px;
 }
 
-section#portfolio > div {
-	/*float: left;*/
-	/*width: 320px;*/
-    /*height: 260px;*/
-    /*padding: 20px 20px 20px 0px;*/
-}
-
 section#portfolio img {
-    /*float: left;*/
     width: 100%;
     height: 260px;
     margin-bottom: 30px;
